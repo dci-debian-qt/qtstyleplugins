@@ -2,5 +2,8 @@ qtstyleplugins-src (5.0.0-0r1) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * Initial release.
+  * Backport upstream commit 8ff2ac6035fb1d01f5c0054ba14afb949410e3a7 to fix
+    a floating point exception in Cleanlooks style; patch
+    upstream_Cleanlooks-style-Fix-floating-point-exception.patch.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 29 Dec 2014 13:25:45 +0100
