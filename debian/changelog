@@ -1,0 +1,6 @@
+qtstyleplugins-src (5.0.0-0r1) UNRELEASED; urgency=low
+
+  [ Pino Toscano ]
+  * Initial release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 29 Dec 2014 13:25:45 +0100
