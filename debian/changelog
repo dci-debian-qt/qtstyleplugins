@@ -2,6 +2,7 @@ qtstyleplugins-src (5.0.0+git16.g7aa4764-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream snapshot.
+    - Drop upstream_Cleanlooks-style-Fix-floating-point-exception.patch.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 Dec 2016 15:34:18 +0300
 
