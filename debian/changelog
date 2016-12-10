@@ -7,6 +7,7 @@ qtstyleplugins-src (5.0.0+git16.g7aa4764-1) UNRELEASED; urgency=medium
     and platformtheme.
   * Update the package description to mention the GTK+ platform theme.
   * Break/Replace all versions of libqt5libqgtk2.
+  * Update debian/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 Dec 2016 15:34:18 +0300
 
