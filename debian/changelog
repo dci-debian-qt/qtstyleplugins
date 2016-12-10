@@ -6,6 +6,7 @@ qtstyleplugins-src (5.0.0+git16.g7aa4764-1) UNRELEASED; urgency=medium
   * Build-depend on libgtk2.0-dev and libx11-dev, for the GTK+ 2 style
     and platformtheme.
   * Update the package description to mention the GTK+ platform theme.
+  * Break/Replace all versions of libqt5libqgtk2.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 Dec 2016 15:34:18 +0300
 
