@@ -3,8 +3,8 @@ qtstyleplugins-src (5.0.0+git16.g7aa4764-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream snapshot.
     - Drop upstream_Cleanlooks-style-Fix-floating-point-exception.patch.
-  * Build-depend on libgtk2.0-dev and libx11-dev, for the GTK+ 2 style
-    and platformtheme.
+  * Build-depend on libegl1-mesa-dev, libgtk2.0-dev, libmtdev-dev and
+    libx11-dev, for the GTK+ 2 style and platformtheme.
   * Update the package description to mention the GTK+ platform theme.
   * Break/Replace all versions of libqt5libqgtk2.
   * Update debian/copyright.
