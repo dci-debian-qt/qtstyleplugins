@@ -2,6 +2,7 @@ qtstyleplugins-src (5.0.0+git16.g7aa4764-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream snapshot.
+    - Includes the GTK+ 2 style, moved from qtbase (closes: #843257).
     - Drop upstream_Cleanlooks-style-Fix-floating-point-exception.patch.
   * Build-depend on libegl1-mesa-dev, libgtk2.0-dev, libmtdev-dev and
     libx11-dev, for the GTK+ 2 style and platformtheme.
