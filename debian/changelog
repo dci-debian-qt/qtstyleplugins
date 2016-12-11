@@ -1,6 +1,5 @@
-qtstyleplugins-src (5.0.0+git16.g7aa4764-1) UNRELEASED; urgency=medium
+qtstyleplugins-src (5.0.0+git16.g7aa4764-1) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream snapshot.
     - Includes the GTK+ 2 style, moved from qtbase (closes: #843257).
     - Drop upstream_Cleanlooks-style-Fix-floating-point-exception.patch.
@@ -12,7 +11,7 @@ qtstyleplugins-src (5.0.0+git16.g7aa4764-1) UNRELEASED; urgency=medium
   * Use HTTPS in Vcs-Git and Vcs-Browser fields.
   * Bump Standards-Version to 3.9.8, no changes needed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 Dec 2016 15:34:18 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 11 Dec 2016 20:01:02 +0300
 
 qtstyleplugins-src (5.0.0-1) unstable; urgency=low
 
