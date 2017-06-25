@@ -1,3 +1,8 @@
+qtstyleplugins-src (5.0.0+git23.g335dbec-2) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 25 Jun 2017 19:42:03 +0200
+
 qtstyleplugins-src (5.0.0+git23.g335dbec-1) unstable; urgency=medium
 
   * New upstream snapshot, compatible with Qt 5.8+.
