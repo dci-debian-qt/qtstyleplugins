@@ -1,3 +1,8 @@
+qtstyleplugins-src (5.0.0+git23.g335dbec-3) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 23 Oct 2017 23:00:53 +0300
+
 qtstyleplugins-src (5.0.0+git23.g335dbec-2) unstable; urgency=medium
 
   * Limit the libmtdev-dev build dependency to Linux architectures, as it is
