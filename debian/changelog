@@ -3,6 +3,7 @@ qtstyleplugins-src (5.0.0+git23.g335dbec-3) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * Remove Fathi Boudra from Uploaders list (closes: #879428).
   * Update to debhelper compat level 11.
+  * Use dh_auto_configure provided by debhelper (closes: #888044).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 23 Oct 2017 23:00:53 +0300
 
