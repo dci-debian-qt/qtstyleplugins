@@ -17,7 +17,7 @@ Build-Depends: debhelper (>= 11),
                pkg-kde-tools,
                qtbase5-private-dev,
 Standards-Version: 4.1.4
-Homepage: http://qt-project.org/
+Homepage: https://www.qt.io/
 Vcs-Git: https://salsa.debian.org/qt-kde-team/qt/qtstyleplugins.git
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt/qtstyleplugins
 
