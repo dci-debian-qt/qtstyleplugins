@@ -7,6 +7,9 @@ qtstyleplugins-src (5.0.0+git23.g335dbec-3) UNRELEASED; urgency=medium
   * Update Vcs fields for migration to salsa.debian.org.
   * Use https protocol in Format field in debian/copyright.
 
+  [ Pino Toscano ]
+  * Bump Standards-Version to 4.1.4, no changes required.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 23 Oct 2017 23:00:53 +0300
 
 qtstyleplugins-src (5.0.0+git23.g335dbec-2) unstable; urgency=medium
