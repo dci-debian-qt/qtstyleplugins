@@ -47,6 +47,8 @@ Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: qt5-style-plugins (<< 5.0.0+git23.g335dbec-2ubuntu1~)
+Replaces: qt5-style-plugins (<< 5.0.0+git23.g335dbec-2ubuntu1~)
 Description: Qt 5 extra widget styles - Cleanlooks
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -58,6 +60,8 @@ Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: qt5-style-plugins (<< 5.0.0+git23.g335dbec-2ubuntu1~)
+Replaces: qt5-style-plugins (<< 5.0.0+git23.g335dbec-2ubuntu1~)
 Description: Qt 5 extra widget styles - Motif
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -69,6 +73,8 @@ Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: qt5-style-plugins (<< 5.0.0+git23.g335dbec-2ubuntu1~)
+Replaces: qt5-style-plugins (<< 5.0.0+git23.g335dbec-2ubuntu1~)
 Description: Qt 5 extra widget styles - Plastique
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -80,6 +86,8 @@ Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: qt5-style-plugins (<< 5.0.0+git23.g335dbec-2ubuntu1~)
+Replaces: qt5-style-plugins (<< 5.0.0+git23.g335dbec-2ubuntu1~)
 Description: Qt 5 extra widget styles - Blackberry
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -91,6 +99,8 @@ Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: qt5-style-plugins (<< 5.0.0+git23.g335dbec-2ubuntu1~)
+Replaces: qt5-style-plugins (<< 5.0.0+git23.g335dbec-2ubuntu1~)
 Description: Qt 5 extra widget styles - GTK 2
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -101,10 +111,12 @@ Package: qt5-style-platform-gtk2
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Recommends: qt5-style-plugin-gtk2
+Depends: qt5-style-plugin-gtk2, ${misc:Depends}, ${shlibs:Depends}
+Breaks: qt5-style-plugins (<< 5.0.0+git23.g335dbec-2ubuntu1~)
+Replaces: qt5-style-plugins (<< 5.0.0+git23.g335dbec-2ubuntu1~)
 Description: Qt 5 extra widget styles - GTK 2 Platform
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains the GTK 2 Platform Theme.
+ This package contains the GTK 2 Platform Theme. Export
+ QT_QPA_PLATFORMTHEME=gtk2 to enable it for all Qt applications.

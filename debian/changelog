@@ -1,3 +1,11 @@
+qtstyleplugins-src (5.0.0+git23.g335dbec-2ubuntu2) cosmic; urgency=medium
+
+  * Add missing Breaks/Replaces, fix the package description for the GTK 2
+    platform theme, and promote the Recommends on qt5-style-plugin-gtk2 (by
+    qt5-style-platform-gtk2) to a Depends. Thanks Dmitry Shachnev!
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 09 Aug 2018 15:49:13 -0500
+
 qtstyleplugins-src (5.0.0+git23.g335dbec-2ubuntu1) cosmic; urgency=medium
 
   * Split the themes into separate binary packages for easier distribution.
