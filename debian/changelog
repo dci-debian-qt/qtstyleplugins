@@ -11,6 +11,9 @@ qtstyleplugins-src (5.0.0+git23.g335dbec-3) UNRELEASED; urgency=medium
   * Bump Standards-Version to 4.1.4, no changes required.
   * Switch Homepage to https://www.qt.io/.
 
+  [ Simon Quigley ]
+  * Split the styles into separate binary packages.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 23 Oct 2017 23:00:53 +0300
 
 qtstyleplugins-src (5.0.0+git23.g335dbec-2) unstable; urgency=medium

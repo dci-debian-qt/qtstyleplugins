@@ -12,4 +12,4 @@ override_dh_auto_install:
 	dh_auto_install
 	
 	# Remove the development stuff of the installed plugins
-	rm -rfv $(CURDIR)/debian/qt5-style-plugins/usr/lib/*/cmake/
+	rm -rfv $(CURDIR)/debian/tmp/usr/lib/*/cmake/
